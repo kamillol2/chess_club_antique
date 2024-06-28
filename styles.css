@@ -1,0 +1,93 @@
+/* styles.css */
+html, body {
+	height: 100%;
+	margin: 0;
+    }
+    
+    body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+    }
+    
+    header {
+	background-color: #6b4f4f;
+	color: white;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+    }
+    
+    h1 {
+	margin: 0;
+    }
+    
+    main {
+	flex: 1;
+	width: 80%;
+	max-width: 1000px;
+	margin: 20px auto;
+    }
+    
+    .section {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+	align-items: center;
+    }
+    
+    .section .text {
+	flex: 1;
+	padding: 20px;
+    }
+    
+    .section .image {
+	flex: 1;
+	padding: 20px;
+    }
+    
+    .section img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+    }
+    
+    .info-link {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: #6b4f4f;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+    }
+    
+    .info-link:hover {
+	background-color: #5a3f3f;
+    }
+    
+    footer {
+	background-color: #6b4f4f;
+	color: white;
+	padding: 10px 20px;
+	width: 100%;
+	text-align: center;
+    }
+    
+    footer a {
+	color: white;
+	text-decoration: underline;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    }
+    
+    footer a:hover {
+	color: #ddd;
+    }
+    
+    footer i {
+	margin-right: 5px;
+    }
+    

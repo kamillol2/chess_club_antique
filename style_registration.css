@@ -1,0 +1,95 @@
+/* style_registration.css */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #ffffff; /* White background */
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    }
+    
+    .container {
+	background-color: #000000; /* Black container background */
+	color: #ffffff; /* White text */
+	padding: 200px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	max-width: 500px;
+	width: 90%;
+    }
+    
+    h1 {
+	text-align: center;
+	color: #ffffff; /* White text */
+    }
+    
+    form {
+	display: flex;
+	flex-direction: column;
+    }
+    
+    label {
+	margin-bottom: 5px;
+	font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="email"] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #ffffff; /* White border */
+	border-radius: 4px;
+	background-color: #000000; /* Black background */
+	color: #ffffff; /* White text */
+    }
+    
+    input[type="submit"] {
+	background-color: #ffffff; /* White background */
+	color: #000000; /* Black text */
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 4px;
+    }
+    
+    input[type="submit"]:hover {
+	background-color: #cccccc; /* Light grey background on hover */
+    }
+    
+    ul {
+	margin-top: 10px;
+    }
+    
+    ul li {
+	margin-bottom: 5px;
+	color: #ffffff; /* White text */
+    }
+    
+    p {
+	text-align: center;
+	margin-top: 20px;
+	color: #ffffff; /* White text */
+    }
+    .highlight-link-container {
+	display: inline-block;
+	color: black(236, 7, 236); /* Text color for the link */
+	background-color: violet; /* Background color */
+	padding: 5px 100px; /* Padding around the link */
+	border-radius: 5px; /* Rounded corners */
+	text-decoration: solid; /* Remove underline */
+	padding-left: 200px ;
+	padding-right: 150px ;
+	transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    }
+    
+    .highlight-link-container:hover {
+	background-color: lightblue; /* Background color on hover */
+	color: black; /* Text color on hover */
+    }

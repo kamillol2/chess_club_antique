@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="C:\Users\kamil\Documents\CODE\FREE_CODE_CAMP\AP_help\img_lib\antique-chess-high-resolution-logo-black.ico" type="image/x-icon">
+    <title>Chess Club Registration</title>
+    <link rel="stylesheet" href="style_registration.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chess Club Registration</h1>
+        <form id="myform" action="https://formspree.io/f/xrbzzjke" method="POST">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required><br><br>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+            
+            <label for="cin">CIN:</label>
+            <input type="text" id="cin" name="cin" required><br><br>
+            
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="fideNumber">FIDE Number (optional):</label>
+            <input type="text" id="fideNumber" name="fideNumber"><br><br>
+            
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <script>
+        document.getElementById("myform").addEventListener("submit", function(event) {
+          // Prevent the default form submission
+          event.preventDefault();
+        
+          // You can perform additional actions here, such as form validation
+        
+          // Submit the form via Formspree (optional, as it will auto-submit with action attribute)
+        
+          // Redirect to another page after successful submission
+          window.location.href = "confirmation.html"; // Replace with your desired URL
+        });
+        </script>
+        
+</body>
+</html>

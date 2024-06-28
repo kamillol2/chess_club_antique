@@ -1,0 +1,155 @@
+/* style_chess.css */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-x: hidden;
+	background-color: #ffffff; /* White background */
+	color: #000000; /* Black text */
+}
+.test{
+	padding-right: 25px;
+}
+header {
+	background-color: #000000; /* Black header background */
+	color: #ffffff; /* White text */
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+    /* Custom list styles */
+.custom-list {
+	list-style-type: circle; /* Removes default list bullets */
+	padding-left: 100px; /* Removes default left padding */
+}
+
+      /* Style for list items */
+.custom-list-item {
+	margin-bottom: 8px; /* Adjust as needed */
+	/* Additional styles as per your design */
+}
+
+.header-icons {
+	display: flex;
+	margin-right: 25px;
+}
+
+.header-icons a {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	margin-right: 25px;
+}
+
+.header-icons a:hover {
+	color: #ddd;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	width: 80%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+.section {
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.section h2 {
+	color: #000000;
+}
+
+.section p {
+	color: #444444;
+}
+.faq {
+	margin-top: 10px;
+}
+
+.faq details {
+	margin-bottom: 10px;
+}
+
+.faq summary {
+	cursor: pointer;
+	font-weight: bold;
+	color: #000000;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+ul li {
+	padding: 5px 0;
+}
+
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px 20px;
+	width: 100%;
+	text-align: center;
+}
+
+footer a {
+	color: #ffffff;
+	text-decoration: underline;
+	margin-left: 10px;
+}
+
+footer a:hover {
+	color: #dddddd;
+}
+
+footer i {
+	margin-right: 5px;
+}
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+
+    /* Hide the images by default */
+.mySlides {
+	display: none;
+	text-align: center;
+}
+
+    /* Add a fading effect */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+    /* Center and style the images */
+/* Center and style the images */
+.mySlides img {
+	border-radius: 15px; /* Smooth border */
+	border: 10px solid rgb(17, 17, 17); /* Black frame */
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visual */
+}
